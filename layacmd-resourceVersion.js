@@ -54,7 +54,7 @@ switch (os.platform())
 		break;
 	default:
 		printErr("Platform does not support.");
-		exit(1);
+		process.exit(0);
 }
 
 var sp = spawn(
